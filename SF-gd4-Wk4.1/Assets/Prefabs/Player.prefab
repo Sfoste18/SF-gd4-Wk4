@@ -342,9 +342,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Height: 3.1310718
+  m_Height: 2.986411
   m_Direction: 1
-  m_Center: {x: 0, y: 1.5415515, z: 0}
+  m_Center: {x: 0, y: 1.6138818, z: 0}
 --- !u!54 &3039445166511533614
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -370,7 +370,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 122
   m_CollisionDetection: 1
 --- !u!114 &-4152723939870148692
 MonoBehaviour:
@@ -384,8 +384,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbfb6ffcaa268d9429dc333fc1de4d5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 100
+  jumpForce: 90
   isOnGround: 1
+  gameOver: 0
 --- !u!1 &1203407767886696795
 GameObject:
   m_ObjectHideFlags: 0
